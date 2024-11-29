@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+}
+
+#product-list {
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h5 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+
+.product-card p {
+    margin: 5px 0;
+}
+
+.product-card button {
+    margin-top: 10px;
+}
