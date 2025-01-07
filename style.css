@@ -40,7 +40,29 @@ body {
 }
 
 /* Header start */
+.logo {
+  /* Size and Position */
+  width: 60px;           
+  height: auto;      
+  border-radius: 50%;   
 
+  /* Alignment */
+  display: block;       
+  margin: 0 auto;      
+  object-fit: cover;    
+
+  /* Borders and Effects */
+  border: 2px solid black;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+
+  /* Hover Effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
 #header {
   display: flex;
   align-items: center;
@@ -244,3 +266,4 @@ flex-wrap: wrap;
   right: 10px;
   text-align: center;
 }
+
